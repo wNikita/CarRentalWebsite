@@ -33,4 +33,5 @@ public class Constant {
     public final static int VIEW_BY_FUEL_TYPE_DIESEL=2;
 
     public final static int BACK=2;
+    public final static int EXIT=0;
 }

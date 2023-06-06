@@ -3,8 +3,6 @@ package com.narola.carrental.operation;
 import com.narola.carrental.common.Constant;
 import com.narola.carrental.common.MenuInput;
 import com.narola.carrental.exception.DAOException;
-import com.narola.carrental.manager.CarManager;
-import com.narola.carrental.model.City;
 import com.narola.carrental.view.CustomerView;
 
 public class CustomerOperation {

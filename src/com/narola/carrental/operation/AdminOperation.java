@@ -38,7 +38,9 @@ public class AdminOperation {
                     break;
                 case Constant.VIEW_PROFILE:
                     customerView.displayProfileDetails();
-                default:
+                    break;
+                case Constant.EXIT:
+                    System.exit(0);
             }
         } while (choice != 5);
     }
