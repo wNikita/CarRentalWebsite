@@ -12,7 +12,6 @@ public class User {
     private String roleName;
     private String verificationCode;
     private boolean isVerified;
-    private String RoleName;
     private int userId;
     private boolean isLogged;
 
@@ -102,8 +101,7 @@ public class User {
     }
 
     public String setEmailId(String emailId) {
-        this.emailId = emailId;
-        return emailId;
+      return   this.emailId = emailId;
     }
 
     public String getMobileNO() {

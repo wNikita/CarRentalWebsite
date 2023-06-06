@@ -4,7 +4,7 @@ package com.narola.carrental.view;
 public class AdminView {
     //AdminView,ViewByRoleAdmin
     //AdminMenu
-    public static void displayAdminMenu() {
+    public  void displayAdminMenu() {
         System.out.println("-----------What you want to doo----------");
         System.out.println("1.Agency Profile");
         System.out.println("2.Add Car");

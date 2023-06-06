@@ -9,7 +9,6 @@ import java.util.List;
 
 public class CarView {
     public CarDetails addCarDetails() {
-
         CarDetails getCarDetails = new CarDetails();
 
         System.out.print(" Enter Car Name => ");
@@ -57,7 +56,6 @@ public class CarView {
             System.out.println("------------------------------------------");
         }
         getDataOfViewCar();
-
     }
 
     public void getDataOfViewCar() throws DAOException {

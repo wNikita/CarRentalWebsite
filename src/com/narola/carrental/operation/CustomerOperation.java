@@ -7,22 +7,27 @@ import com.narola.carrental.view.CustomerView;
 
 public class CustomerOperation {
 
-    private CustomerView customerView = new CustomerView();
 
     public void customerMenu() throws DAOException {
         int choice;
         do {
+            CustomerView customerView = new CustomerView();
+
             customerView.displayCustomerMenu();
 
             choice = MenuInput.takeNumberInput();
             switch (choice) {
                 case Constant.SEARCH_FOR_CAR:
+                case Constant.BACK:
                     customerView.inputLocationDetails();
+                    break;
+                case Constant.BOOK_CAR:
+
                     break;
                 case Constant.MY_ACCOUNT:
                      customerView.displayProfileDetails();
-                case Constant.BACK:
-                    customerView.inputLocationDetails();
+                     break;
+
             }
         } while (choice != 3);
 

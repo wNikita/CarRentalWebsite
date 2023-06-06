@@ -33,8 +33,9 @@ public class Constant {
     public final static int VIEW_BY_FUEL_TYPE_DIESEL=2;
 
     public final static int SEARCH_FOR_CAR=1;
-    public final static int MY_ACCOUNT = 2;
-    public final static int BACK=3;
+    public final static int BOOK_CAR=2;
+    public final static int MY_ACCOUNT = 3;
+    public final static int BACK=4;
     public final static int EXIT=0;
 
 }

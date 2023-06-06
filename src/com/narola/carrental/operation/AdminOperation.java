@@ -14,8 +14,8 @@ import java.util.List;
 
 public class AdminOperation {
     private AdminView adminView = new AdminView();
-    private AgencyManager agencyManager = new AgencyManager();
-    private CustomerView customerView = new CustomerView();
+    private  AgencyManager agencyManager = new AgencyManager();
+    private  CustomerView customerView = new CustomerView();
     private SortingByOrder sortingByOrder = new SortingByOrder();
     private CarManager carManager = new CarManager();
     private CarView carView = new CarView();
