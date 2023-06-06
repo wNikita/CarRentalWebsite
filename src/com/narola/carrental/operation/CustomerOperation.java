@@ -11,12 +11,14 @@ public class CustomerOperation {
 
     public void customerMenu() throws DAOException {
         int choice;
-        customerView.inputLocationDetails();
         do {
             customerView.displayCustomerMenu();
 
             choice = MenuInput.takeNumberInput();
             switch (choice) {
+                case Constant.SEARCH_FOR_CAR:
+                    customerView.inputLocationDetails();
+                    break;
                 case Constant.MY_ACCOUNT:
                      customerView.displayProfileDetails();
                 case Constant.BACK:

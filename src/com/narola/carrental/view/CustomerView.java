@@ -17,8 +17,9 @@ public class CustomerView {
     //CustomerMenu
     public static void displayCustomerMenu() {
         System.out.println("-----------What you want to doo----------");
-        System.out.println("1.My Account");
-        System.out.println("2.Back");
+        System.out.println("1.Search Car");
+        System.out.println("2.My Account");
+        System.out.println("3.Back");
         System.out.println("Enter choice:");
 
     }
